@@ -1,0 +1,9 @@
+Orphan - It is the process whose parent process has terminated . 
+
+An orphan becomes a zombie when it still has process entry in table  becoause parent didnt read its exit status with wait().
+
+
+
+Parent should read the exit status using wait() or use signaling to reduce this problem.
+
+
